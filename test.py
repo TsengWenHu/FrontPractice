@@ -4,3 +4,5 @@ print("000")
 
 
 print("0000000000")
+
+print("ffffff")

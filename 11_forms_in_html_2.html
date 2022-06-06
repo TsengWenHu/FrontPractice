@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=button]{
+                background-color:blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" value="male" checked>male
+                    <input type="radio" name="gender" value="female">female
+                </fieldset>
+                
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="checkbox" name="gender" value="male" checked>male
+                    <input type="checkbox" name="gender" value="female">female
+                </fieldset>
+                <br>
+                <button>submit</button>
+            </form>
+        </div>
+
+        <br><br><br>
+        <div>
+            <fieldset>
+                <legend>Download progress</legend>
+                <progress min="1" max="100" value="60"></progress>
+            </fieldset>
+            <fieldset>
+                <legend>84% profile completed</legend>
+                <meter min="1" max="100" value="84"></meter>
+            </fieldset>
+        </div>
+
+        <br><br><br>
+        <div>
+            <fieldset>
+                <legend>license terms</legend>
+                <textarea cols="40" rows="4" readonly>this is the home page to learn html</textarea>
+                <br>
+                <input type="checkbox">Accept terms
+            </fieldset>
+        </div>
+
+        <br><br><br>
+        <div>
+            <!-- type="button", "submit", "reset" -->
+            <input type="button" name="print" value="print">
+        </div>
+
+        <!-- marquee -->
+        <br><br><br>
+        <div>
+            <marquee bgcolor="yellow" width="600" height="50" loop="40" direction="right" scrollamount="20">Welcome to this course</marquee>
+        </div>
+    </body>
+</html>

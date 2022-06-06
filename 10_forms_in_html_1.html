@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        
+    </head>
+    <body>
+        <form >
+                <table align="center" width="500">
+                    <caption>Registration form</caption>
+                    <tr>
+                        <td>User name</td>
+                        <td>
+                            <input type="text" name="txtname" placeholder="max 10 chars only" autofocus required maxlength="10" size="20" pattern="[A-Z]">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>password</td>
+                        <td>
+                            <input type="password" name="txtpassword" placeholder="password should me 4 to 15 chars" required pattern="[a-z A-Z 0-9]">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>age</td>
+                        <td>
+                            <input type="number" name="txtage" min="15" max="30" value="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="email" name="txtemail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Favorate color</td>
+                        <td>
+                            <input type="color" name='txtcolor'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Favorite cricketer name</td>
+                        <td>
+                            <input type="text" list="players">
+                            <datalist id="players">
+                                <option>s</option>
+                                <option>d</option>
+                                <option>e</option>
+                                <option>f</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Price range</td>
+                        <td>
+                            <input type="range" name="txtprice">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>upload photo</td>
+                        <td>
+                            <input type="file" name="txtfile">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Register!">
+                        </td>
+                    </tr>
+                   
+
+
+                </table>
+        </form>
+
+        <div><br><br><br></div>
+        <!-- dropdownlist -->
+        <div align="center">
+            <select>
+                <option value="value" disabled>2NE1</option>
+                <option value="value">blackpink</option>
+                <option selected>apink</option>
+                <option>SISTAR</option>
+            </select>
+        </div>
+
+        <!-- listbox -->
+        <!-- <div align="center">
+            <select size="2" multiple>
+                <option>2NE1</option>
+                <option>blackpink</option>
+                <option>apink</option>
+                <option>SISTAR</option>
+            </select>
+        </div> -->
+    </body>
+</html>
